@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {{>links}}
+        <link rel="stylesheet" href="./styling/index.css">
+    </head>
+<body>
+    <div class="main-container">
+        <div class="father container">
+            {{>nav}}
+
+            <!-- ###################### main data will come here bro ..... ################### -->
+            <section class="contact-page">
+                <h2 class="md-heading fw-600 capitalize text-center">contact me</h2>
+                <form>
+                    <div class="input-field">
+                        <label for="name">name</label>
+                        <input type="text">
+                    </div>
+                    <div class="input-field">
+                        <label for="name">mobile number</label>
+                        <input type="text">
+                    </div>
+                    <div class="input-field">
+                        <label for="name">email</label>
+                        <input type="text">
+                    </div>
+                    <div class="input-field">
+                        <label for="name">address</label>
+                        <input type="text">
+                    </div>
+                    <div class="input-field">
+                        <label for="name">feedback</label>
+                        <!-- <input type="text"> -->
+                        <textarea></textarea>
+                    </div>
+                    <a href="./" class="primary-btn">submit</a>
+                </form>
+            </section>
+
+            {{>footer}}
+        </div>
+    </div>
+</body>
+</html>
